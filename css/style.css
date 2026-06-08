@@ -1,6 +1,5 @@
 body {
-    border: black;
-    background-color: #fdf5ed;
+    background-color: white;
 }
 
 h1{
@@ -8,33 +7,64 @@ h1{
     font-size: 250%;
     font-family: 'Archivo Black', sans-serif;
     background: linear-gradient(
-    90deg,
-    #ffc4d6,
-    #fff2b2,
-    #d4f8c4,
-    #cfe8ff,
-    #e4c1ff );
+        180deg,
+        #db5382,
+        #E16B95,
+        #E884A8,
+        #EE9DBB,
+        #F4B6CE
+    );
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
     color:azure;
-    -webkit-text-stroke: 1px black;
     padding: 5%;
     margin:auto;
 }
 
 ul {
     list-style: none;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: auto;
     margin:30px;
 }
 
 li{
     padding: 10px;
+    color:  #ffffff;
 }
 
 li:before{
     content: "➥ "
 }
 
-a{
-    color:rgb(23, 19, 19);
+button{
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: linear-gradient(
+        180deg,
+        #db5382,
+        #E16B95,
+        #E884A8,
+        #EE9DBB,
+        #F4B6CE
+    );
+    border: none;
+    border-radius: 12px;
+}
+
+button:hover{
+    background-color: #C75B7A;
+}
+
+button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.menu{
+    margin-top: 40px;
+    background-color:#FFF8E8 ;
+    border: 2px solid #F4C27A;
+    border-radius: 20px;
 }

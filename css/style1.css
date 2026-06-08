@@ -1,0 +1,185 @@
+body{
+    background-color: #FFFDF7;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5A3D2B;
+}
+
+.head{
+    background: linear-gradient(
+        180deg,
+        #db5382,
+        #E16B95,
+        #E884A8,
+        #EE9DBB,
+        #F4B6CE
+    );
+    padding: 25px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.head h1{
+    margin: 0;
+    font-size: 50px;
+}
+
+.head h3{
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.info table{
+    border-collapse: separate;
+    border-spacing: 15px;
+    width: 90%;
+}
+
+.info td{
+    padding: 20px;
+    vertical-align: middle;
+    border-radius: 15px;
+    border: 2px solid #F4C27A;
+}
+
+.date-box td{
+    background-color: #FFF4D6;
+}
+
+.sale-box td{
+    background-color: #FFE7EC;
+}
+
+.info li{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.img-box td{
+    background-color: #FFF8E8;
+    text-align: center;
+}
+
+.pic img{
+    width: 85% !important;
+    border-radius: 20px;
+    border: 4px solid #F4C27A;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.pic p{
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.all{
+    width: 90%;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #FFF8E8;
+    border: 2px solid #F4C27A;
+    border-radius: 20px;
+}
+
+.all h3{
+    color: #C75B7A;
+}
+
+.all li{
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+
+button{
+    display: block;
+    margin-left: auto; 
+    margin-right: 15px;
+    padding: 12px 20px;
+    background-color: #D96C93;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #C75B7A;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.law{
+    width: 90%;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #FFF0C7;
+    border: 2px solid #F4C27A;
+    border-radius: 20px;
+}
+
+.law h3{
+    color: #C75B7A;
+}
+
+.law li{
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.law p{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #B35C00;
+}
+
+.tip{
+    width: 90%;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #FFEFF4;
+    border: 2px solid #F4C27A;
+    border-radius: 20px;
+}
+
+.tip h3{
+    color: #C75B7A;
+}
+
+.tip li{
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+body > h3:last-child{
+    text-align: center;
+    margin: 35px;
+    color: #D96C93;
+    font-size: 30px;
+}
+
+ul{
+    padding-left: 25px;
+}
+
+li{
+    font-size: 20px;
+}
+
+b{
+    color: #8B4A2F;
+}
+
+.end {
+    margin-right: 50px;
+}
